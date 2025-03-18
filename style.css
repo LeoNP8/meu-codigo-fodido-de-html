@@ -1,0 +1,87 @@
+*{
+    scrollbar-color: black;
+}
+
+body{
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #7e7dcd;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.square{
+    width: 185vh;
+    height: 87vh;
+    background-color: #02000e;
+    border-radius: 25px;
+}
+
+@font-face {
+    font-family: 'Lovelo Black';
+    src: url(/fontes/Lovelo\ Black.otf) format('opentype'); 
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url(/fontes/Poppins-Black.ttf) format('opentype');
+}
+
+.titulo{
+    text-align: center;
+    font-size: 60px;
+    float: left;
+    transform: translateY(200px);
+    font-family: 'Lovelo Black';
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: ;
+}
+
+hr {
+    position: relative;
+    top: 32%;
+    right: 780px;
+    border: none;
+    border-bottom: 4px dotted white;
+    width: 440px;
+       
+}
+
+.logo{
+    width: 100px;
+    margin-left: 50px;
+    transform: translateY(30px);
+    float: left;    
+}
+
+.instagram{
+    position: relative;
+     width: 70px;
+    float: left;
+}
+
+.x{
+    position: relative;
+    width: 70px;
+    float: left;
+}
+
+.discord{
+    position: relative;
+    width: 70px;
+    float: left;
+    
+}
+
+img{
+    width: 70px;
+}
+
+
